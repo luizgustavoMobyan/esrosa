@@ -5,12 +5,26 @@
     margin-bottom: 25px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
-
+    margin-top: 35px;
+    
     .logo-container {
         height: 100%;
         width: 350px;
         padding: 25px;
+
+        .logo-text-left,
+        .logo-text-right {
+          font-size: 24px;
+          color: pink;
+        }
+
+        .logo-text-left {
+          margin-right: 10px;
+        }
+
+        .logo-text-right {
+          margin-left: 0px;
+        }
     }
 
     .nav-links-container {
@@ -36,9 +50,8 @@
         .nav-link:hover {
             background-color: pink;
             color: white;
-            border: 1px solid #000;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px white(0, 0, 0, 0.5);
             transform: translateY(-5px);
         }
 

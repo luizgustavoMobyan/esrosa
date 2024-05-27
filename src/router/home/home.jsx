@@ -13,8 +13,8 @@ const categories = [
   },
   {
     "id": 3,
-    "title": "Empada de Camarão",
-    "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/24c01e452493eba0f9e741ef09a2d61a_XL.jpg"
+    "title": "Doces para Festa",
+    "imageUrl": "https://saborecia.com.br/wp-content/uploads/2020/08/MG_4421-scaled.jpg"
   },
   {
     "id": 4,
@@ -23,11 +23,15 @@ const categories = [
   },
   {
     "id": 5,
-    "title": "Kit Festa",
+    "title": "Empada de Camarão",
+    "imageUrl": "https://www.sabornamesa.com.br/media/k2/items/cache/24c01e452493eba0f9e741ef09a2d61a_XL.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Monte seu Kit Festa",
     "imageUrl": "https://padariavianney.com.br/web/image/product.template/5142/image_1024?unique=0b96313"
   }
 ]
-
 export function Home() {
   return (
     <div>

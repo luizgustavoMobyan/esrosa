@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import { Category } from "../category/category"
-import './categories.scss'
+import { Category } from "../category/category";
+import './categories.scss';
 
 export function Categories( { categories } ){
   

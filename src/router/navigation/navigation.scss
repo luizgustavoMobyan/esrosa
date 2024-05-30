@@ -33,11 +33,6 @@
         align-items: center;
         justify-content: center;
         gap: 100px;
-        margin-right: 250px;
-
-        .nav-link {
-            cursor: pointer;
-        }
 
         .nav-link {
             position: relative;
@@ -45,6 +40,7 @@
             text-decoration: none;
             color: black;
             transition: border-radius 0.5s ease-in-out, box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+            cursor: pointer;
         }
         
         .nav-link:hover {

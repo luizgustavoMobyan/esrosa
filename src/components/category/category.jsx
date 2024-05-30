@@ -1,5 +1,7 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import ItemCount from '../item-count/ItemCount';
 import './category.scss';
 
 export function Category({ category }) {
@@ -13,6 +15,7 @@ export function Category({ category }) {
       />
       <div className="category-body-container">
         <h2>{title}</h2>
+        <ItemCount initial={1} stock={10} />
         <button className="category-button">Comprar Agora</button>
       </div>
     </div>

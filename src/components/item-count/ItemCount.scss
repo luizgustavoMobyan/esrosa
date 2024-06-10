@@ -44,12 +44,11 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
 
-  .add-to-cart-button:hover {
-    background-color: #23963e;
-    border: #23963e;
-  }
-
+.add-to-cart-button:hover {
+  background-color: #0d8f2c;
+  border: #0d8f2c;
 }
 
 .error-message {

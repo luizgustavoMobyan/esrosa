@@ -5,7 +5,7 @@ import ItemCount from '../item-count/ItemCount';
 import './category.scss';
 
 export function Category({ category }) {
-  const { imageUrl, title } = category;
+  const { id, imageUrl, title, price, stock } = category;
 
   return (
     <div className="category-container">
@@ -15,7 +15,8 @@ export function Category({ category }) {
       />
       <div className="category-body-container">
         <h2>{title}</h2>
-        <ItemCount initial={1} stock={10} />
+        <p>Preço: {price}</p>
+        <ItemCount initial={1} stock={stock} id={id} title={title} price={price} imageUrl={imageUrl} />
         <button className="category-button">Comprar Agora</button>
       </div>
     </div>

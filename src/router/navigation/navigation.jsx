@@ -26,7 +26,9 @@ export function Navigation() {
         <NavLink className="nav-link" to="/auth">
         <a className="nav-link">LOGIN</a>
         </NavLink>
+        <NavLink className="nav-link" to="/checkout">
         <CartIcon className="nav-cart" />
+        </NavLink>
       </div>
       <Outlet/>
     </>

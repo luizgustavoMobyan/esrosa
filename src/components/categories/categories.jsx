@@ -9,7 +9,7 @@ export function Categories( { categories } ){
       {
         categories.map((category) => {
           return (
-            <Category category={category} key={category.title}/>
+            <Category key={category.id} category={category} />
           )
         })
       }
